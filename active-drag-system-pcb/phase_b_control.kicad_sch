@@ -2270,7 +2270,7 @@
 			)
 		)
 	)
-	(global_label "PHASE_A"
+	(global_label "PHASE_B"
 		(shape input)
 		(at 255.27 73.66 0)
 		(fields_autoplaced yes)
@@ -2282,7 +2282,7 @@
 		)
 		(uuid "37d7d22e-b2da-48cc-9645-b96a3276f744")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.359 73.66 0)
+			(at 266.5404 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2292,7 +2292,7 @@
 			)
 		)
 	)
-	(global_label "CURRENT_SENSE_A"
+	(global_label "CURRENT_SENSE_B"
 		(shape input)
 		(at 184.15 97.79 0)
 		(fields_autoplaced yes)
@@ -2304,7 +2304,7 @@
 		)
 		(uuid "7d8c13a1-e4be-4e26-9104-ed15446c5797")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.7941 97.79 0)
+			(at 204.9755 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2314,7 +2314,7 @@
 			)
 		)
 	)
-	(global_label "VOLTAGE_SENSE_A"
+	(global_label "VOLTAGE_SENSE_B"
 		(shape input)
 		(at 224.79 99.06 0)
 		(fields_autoplaced yes)
@@ -2326,7 +2326,7 @@
 		)
 		(uuid "97ee6e61-429d-4358-9e24-ab6930140206")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.7689 99.06 0)
+			(at 244.9503 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f29475a-fc49-40c4-8d8d-9966db0e65ca")
-		(property "Reference" "R11"
+		(property "Reference" "R16"
 			(at 91.44 57.15 90)
 			(effects
 				(font
@@ -2478,15 +2478,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "0e93fa90-2714-4e60-b530-7944353cada6")
+			(uuid "ba49b5bc-09d4-46b0-a73e-3124572dedb7")
 		)
 		(pin "2"
-			(uuid "89753721-99af-410c-9fc7-4e2262448768")
+			(uuid "9ce12fc5-b942-4af1-ad24-2b1a88b5f6ac")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "R11")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -2502,7 +2506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18cc4985-caaa-4d18-babe-2d80df80130a")
-		(property "Reference" "C31"
+		(property "Reference" "C37"
 			(at 77.47 29.21 90)
 			(effects
 				(font
@@ -2546,15 +2550,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "266fcc6d-2774-4223-8427-aee493dfd105")
+			(uuid "c7da187e-09da-431e-9acf-e8650a70deb3")
 		)
 		(pin "1"
-			(uuid "c5a6cf56-2c3c-445a-8870-f6649ac8e35a")
+			(uuid "b1d630b2-9dbd-4349-aedc-e8070a0fde89")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "C31")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "C37")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -2570,7 +2578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19ea074c-a404-499d-9be3-626dcdcaf3e2")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR060"
 			(at 144.78 119.38 0)
 			(effects
 				(font
@@ -2615,12 +2623,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "84b2d655-15da-4030-ac1d-e48028d7136b")
+			(uuid "9f343fb2-d362-46e0-b990-a596680d8e50")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "#PWR054")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "#PWR060")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -2636,7 +2648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4066fad0-3dcf-4556-bb41-ea9938a856f6")
-		(property "Reference" "C33"
+		(property "Reference" "C39"
 			(at 135.89 78.74 90)
 			(effects
 				(font
@@ -2680,15 +2692,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "a6f3af6e-fa12-4778-81ce-e7c65ce74229")
+			(uuid "2a62fbe4-6905-4599-a2b0-f04d189adfa0")
 		)
 		(pin "1"
-			(uuid "f155e79d-e45f-4718-8e49-966cbe5e8a4c")
+			(uuid "9bc99f57-6fa9-4203-9bcf-39e427a70713")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "C33")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "C39")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -2704,7 +2720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40b5852d-00e4-49fc-815d-da370fa91b9b")
-		(property "Reference" "Q2"
+		(property "Reference" "Q4"
 			(at 110.49 80.0099 0)
 			(effects
 				(font
@@ -2781,18 +2797,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d0733c0-2c92-4293-8abd-7e97ac90ad0d")
+			(uuid "916cbf30-1899-48a1-967d-0d0a96199897")
 		)
 		(pin "5"
-			(uuid "92b519ce-a61a-4d72-84dd-682df2e39dbd")
+			(uuid "12a0bfff-0842-4f52-a3d9-b795882c8af6")
 		)
 		(pin "4"
-			(uuid "3aa5ae59-e983-4baa-baf6-b6113ce95ada")
+			(uuid "185be7b7-2079-4f5b-bd0d-081397ecb8c1")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "Q2")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -2808,7 +2828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43b97e7d-d308-4298-aeb7-6c1ecdd8c24b")
-		(property "Reference" "Q1"
+		(property "Reference" "Q3"
 			(at 110.49 59.6899 0)
 			(effects
 				(font
@@ -2885,18 +2905,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "089190f4-ac79-48a4-9d47-186490157b29")
+			(uuid "2312624a-a03a-4ea3-b17c-39ab27fc00e7")
 		)
 		(pin "5"
-			(uuid "b71c4686-f049-45f3-baff-f891c2e8b7c2")
+			(uuid "2fcf5807-8597-4930-aa91-e6bb0cf3440f")
 		)
 		(pin "4"
-			(uuid "7180b137-5c75-4927-b156-bdd5b4ade14f")
+			(uuid "1c992655-6529-4db2-a6ff-c79af4334977")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "Q1")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -2912,7 +2936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c857009-3c6b-4d98-bcf5-be04b81726e3")
-		(property "Reference" "C34"
+		(property "Reference" "C40"
 			(at 181.61 104.1399 0)
 			(effects
 				(font
@@ -2958,15 +2982,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "7b983ce0-543b-4645-873d-df4155076946")
+			(uuid "0502a390-c62e-4abd-a041-577433b18911")
 		)
 		(pin "1"
-			(uuid "d2f0055d-9a56-445f-9362-d00d789d58eb")
+			(uuid "25a56fe1-1d4a-4a79-9f3f-b5fde4b0f9da")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "C34")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "C40")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -2982,7 +3010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a511cff-4de2-4d6b-b46f-6c19bdc66b80")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR058"
 			(at 116.84 52.07 0)
 			(effects
 				(font
@@ -3027,12 +3055,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "209d6cd1-a99e-407b-bf30-948211a1dc4c")
+			(uuid "025f6fc5-3abe-4dc9-8a48-09fc94ec44c7")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "#PWR051")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "#PWR058")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -3048,7 +3080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f6b3b41-dc2b-41fc-98eb-74132d9a5813")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR055"
 			(at 41.91 54.61 0)
 			(effects
 				(font
@@ -3093,12 +3125,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "43fa27e1-08e6-4eca-bcf0-d1299827af3a")
+			(uuid "4ed8ffd9-da59-4794-9e8c-f9ce4a34bd0a")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "#PWR050")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3114,7 +3150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d5c2215-8d7f-4abb-bc0b-59c8473e6cfb")
-		(property "Reference" "R12"
+		(property "Reference" "R18"
 			(at 109.22 97.7899 0)
 			(effects
 				(font
@@ -3160,15 +3196,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "270be07b-ccb9-42b6-bcb2-b1243f069701")
+			(uuid "f559e377-a8cd-4df0-a47f-8f7a040927f9")
 		)
 		(pin "1"
-			(uuid "f93e4f70-8e18-41a7-bea1-8bc506f71ffa")
+			(uuid "41b284f6-db95-4372-b657-c8f8da5adc91")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "R12")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3184,7 +3224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6076561-3846-49d1-aaf0-91b551eaec4f")
-		(property "Reference" "R13"
+		(property "Reference" "R19"
 			(at 170.18 91.44 90)
 			(effects
 				(font
@@ -3228,15 +3268,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "325ddd24-8f35-4204-befd-5e9b07ac140e")
+			(uuid "895200be-f698-42c9-bf85-a878b243908f")
 		)
 		(pin "2"
-			(uuid "7c52a654-31c3-481d-9387-21959598a848")
+			(uuid "ff87f68c-3374-4ba8-8a81-e164b34e170f")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "R13")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -3252,7 +3296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac7c4e0c-399e-473d-9dc7-5f2775492b00")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 66.3575 30.48 0)
 			(effects
 				(font
@@ -3296,15 +3340,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "6858913c-e424-41d9-9354-6c76ad0c62af")
+			(uuid "8d2d6ed7-6af6-4afc-a96f-662063a06713")
 		)
 		(pin "2"
-			(uuid "7475378f-5ef7-4915-a896-313f04bccce6")
+			(uuid "67bf6174-bec5-4d87-a2ef-87c15f157d2f")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "D1")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "D3")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -3320,7 +3368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae7fab27-00b3-4075-b69c-85189dd26af0")
-		(property "Reference" "C30"
+		(property "Reference" "C36"
 			(at 45.72 43.1799 0)
 			(effects
 				(font
@@ -3366,15 +3414,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "4885c8e8-74d9-424f-b5c1-03d75e761471")
+			(uuid "72024045-49fa-4266-b4dd-6732a99e52fd")
 		)
 		(pin "1"
-			(uuid "54ef2551-574a-4b63-a30a-5f0e9202333e")
+			(uuid "2e3dacfa-5006-4450-97f6-5f7bccef4bd4")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "C30")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "C36")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -3390,7 +3442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2ac5e7d-007a-452a-a6a9-88c7e97c6380")
-		(property "Reference" "C32"
+		(property "Reference" "C38"
 			(at 120.65 40.6399 0)
 			(effects
 				(font
@@ -3436,15 +3488,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "99028477-61b7-42de-9074-a7259e2fcd8a")
+			(uuid "e5f68f84-7d1a-470c-9099-2aaeae2610aa")
 		)
 		(pin "1"
-			(uuid "09ac0756-98ed-4787-8547-65c4a7de1ac8")
+			(uuid "d018bb59-def3-4adc-9442-35b983586bfd")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "C32")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "C38")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -3460,7 +3516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbdd22da-b1cf-40ba-b03d-941705a257a8")
-		(property "Reference" "C35"
+		(property "Reference" "C41"
 			(at 224.79 104.1399 0)
 			(effects
 				(font
@@ -3506,15 +3562,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "35f97143-5e37-4593-a8da-ec99daf5404e")
+			(uuid "c3ea15bd-5152-4222-a138-115c52eb8f26")
 		)
 		(pin "1"
-			(uuid "8345e889-e283-4e67-aa20-12c70dbf7117")
+			(uuid "788ee9a9-00d1-432b-9b8b-1ad72e72cb65")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "C35")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "C41")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -3530,7 +3590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcb647aa-6111-4fce-8e2f-50cfa85727bf")
-		(property "Reference" "R10"
+		(property "Reference" "R17"
 			(at 91.44 77.47 90)
 			(effects
 				(font
@@ -3574,15 +3634,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff0508f0-284b-4641-8b21-12ed17fc4432")
+			(uuid "49a33831-2dcc-4b56-94d8-18f300267c9d")
 		)
 		(pin "2"
-			(uuid "6c38c8ba-8d86-4f3a-b744-0c9a05670de5")
+			(uuid "543f850f-17ea-45f5-bf45-91f45b3c80ee")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "R10")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -3598,7 +3662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1672c55-3a30-4188-8e2f-08676a219dd4")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR059"
 			(at 130.81 95.25 0)
 			(effects
 				(font
@@ -3643,12 +3707,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f101dc1-0be9-4b3d-a3c0-c690af5d52d6")
+			(uuid "7f757d5f-af97-4475-b716-c6cbe1579523")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "#PWR053")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "#PWR059")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -3664,7 +3732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c58dc49f-03b9-4285-8c27-76286dc42fd1")
-		(property "Reference" "U11"
+		(property "Reference" "U13"
 			(at 64.4241 53.34 0)
 			(effects
 				(font
@@ -3711,33 +3779,37 @@
 			)
 		)
 		(pin "2"
-			(uuid "8e86aef8-dc35-4b2d-8a39-ac3e1a4f1679")
+			(uuid "16b1ac4b-6ed5-41a9-a6a6-ca5fb9e8bb30")
 		)
 		(pin "3"
-			(uuid "0ba1a3f9-4f63-44ea-98ca-75cbe4f86e58")
+			(uuid "ff7e65aa-1a1a-4c65-908a-e4c711cb4e99")
 		)
 		(pin "7"
-			(uuid "13e37d8f-b36a-4023-a058-eed1a21339b8")
+			(uuid "2e13c2e1-af46-4558-860e-c2d2db05a481")
 		)
 		(pin "8"
-			(uuid "dfd09f16-cd8b-490d-a94a-5985e0aec5fe")
+			(uuid "01205df4-3991-44f3-be33-e090da1c2687")
 		)
 		(pin "1"
-			(uuid "1c35911a-c9b4-44ee-865f-86a722a2f5fc")
+			(uuid "b525f5d7-37f4-478b-8bf5-496b216026bf")
 		)
 		(pin "6"
-			(uuid "bfadd828-60c5-472d-a9e3-5b525dd9e3a0")
+			(uuid "83ff003c-1651-4c27-9694-692748123255")
 		)
 		(pin "5"
-			(uuid "c1da10a0-da1d-430c-926f-22a04aaf8132")
+			(uuid "3bb86699-d097-4110-a776-83104931a67a")
 		)
 		(pin "4"
-			(uuid "ce18631b-8c7e-4ade-bcd7-55bf4eb5b041")
+			(uuid "a78b84b5-11ca-4f63-bae9-a320526ba9c4")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "U11")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "U13")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -3753,7 +3825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7f81058-d75c-4ef4-aa7a-f648c575a4fb")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 252.73 86.3599 90)
 			(effects
 				(font
@@ -3799,15 +3871,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ce2c3ae-6f7f-4d91-96cd-e60bcd8b18aa")
+			(uuid "c0660f89-b50f-486f-a4fc-7e6bd6019692")
 		)
 		(pin "2"
-			(uuid "8ee0ac5c-b0b8-4e89-a23d-3e2477c9313e")
+			(uuid "14ea27f7-acc1-43ee-8d4f-e133268cd9fa")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "D2")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "D4")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -3823,7 +3899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c902fad3-c866-4016-ad54-1c4bd9332293")
-		(property "Reference" "U12"
+		(property "Reference" "U14"
 			(at 158.75 91.4714 0)
 			(effects
 				(font
@@ -3867,24 +3943,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "7ce938fd-8898-448b-8fd7-31fb7aa324b1")
+			(uuid "039c7811-da2d-42bc-bff1-5ddaa8ec43ac")
 		)
 		(pin "3"
-			(uuid "28422f40-0a5c-4fd7-af5a-05a7850716fb")
+			(uuid "6775618f-bd82-45c3-997a-4eebb3ea76ef")
 		)
 		(pin "5"
-			(uuid "1d5f7dfc-453b-48cc-8ae4-7416316f5270")
+			(uuid "026c6e4e-4cea-4e40-9f88-aff36beec179")
 		)
 		(pin "4"
-			(uuid "77dee6d1-3531-451a-aa58-3c119f91aed5")
+			(uuid "d4179a5e-2735-403e-bc66-555b58f01144")
 		)
 		(pin "1"
-			(uuid "68481f67-d7c2-4523-a62e-5802ab0f5be5")
+			(uuid "93b996dd-914f-4d11-86c6-847ccbd34708")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "U12")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "U14")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -3900,7 +3980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce56369c-508b-41bf-881e-17a32ac14c88")
-		(property "Reference" "R15"
+		(property "Reference" "R21"
 			(at 210.82 104.1399 0)
 			(effects
 				(font
@@ -3946,15 +4026,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "6893b104-718b-4117-8457-d611ae7aca94")
+			(uuid "e735c134-bb8a-4dd2-b15a-5a08ea8698f3")
 		)
 		(pin "1"
-			(uuid "e97f2645-97fc-4b62-88d8-0eff8dc38719")
+			(uuid "3bf76571-8985-4175-8c17-91b763e71cb8")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "R15")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -3970,7 +4054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cecd2038-5145-484c-9daa-47cf2eeb2d53")
-		(property "Reference" "R14"
+		(property "Reference" "R20"
 			(at 210.82 82.5499 0)
 			(effects
 				(font
@@ -4016,15 +4100,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "dc22e22f-2ad7-4850-bede-28d6abcb0a1b")
+			(uuid "dacf7a74-3a6d-458d-b4e2-4e2f618b72ec")
 		)
 		(pin "1"
-			(uuid "b61759f9-fcd2-49e9-8410-d8d218f43ed4")
+			(uuid "2738f719-5269-458d-8f15-9e64397528d2")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "R14")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -4040,7 +4128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6ce02b6-d7fb-4ee2-adb4-a023fe50876b")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR057"
 			(at 106.68 115.57 0)
 			(effects
 				(font
@@ -4085,12 +4173,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "477db262-a173-4f91-9919-508174feff11")
+			(uuid "a6176dc6-9360-4bec-a8ea-372976d23984")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "#PWR052")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "#PWR057")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -4106,7 +4198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f627bbab-fd12-400b-97d5-4c0e8254b133")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR056"
 			(at 62.23 91.44 0)
 			(effects
 				(font
@@ -4151,12 +4243,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "d57b6aaf-9e7b-435d-ba33-5a73f91faa34")
+			(uuid "fec50feb-614b-4cf5-b865-e97b9f044621")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
-					(reference "#PWR049")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)

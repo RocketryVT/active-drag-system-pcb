@@ -582,6 +582,14 @@
     [
       "fbbbaf64-191c-47c3-84ef-de04ddaa7763",
       "phase_a_control"
+    ],
+    [
+      "b1ccadfc-44f5-400d-854c-4f76664e7cea",
+      "phase_b_control"
+    ],
+    [
+      "d7553554-0e14-4ea6-a547-ff75906ed6d2",
+      "phase_c_control"
     ]
   ],
   "text_variables": {}
