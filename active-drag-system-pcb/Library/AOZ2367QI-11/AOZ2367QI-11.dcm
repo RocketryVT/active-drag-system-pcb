@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AOZ2367QI-11
+D IC REG BUCK ADJ 20A 28QFN
+K
+F https://www.aosmd.com/sites/default/files/res/datasheets/AOZ2367QI-11.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1363,7 +1363,247 @@
 				)
 			)
 		)
-		(symbol "power:GND"
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+BATT"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GNDA"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1380,7 +1620,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GND"
+			(property "Value" "GNDA"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1406,7 +1646,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1424,7 +1664,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "GNDA_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -1438,7 +1678,175 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "GNDA_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GNDPWR"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -2248,28 +2656,6 @@
 		)
 		(uuid "f9df6d9c-2b40-4684-8c4d-ba95eebb0818")
 	)
-	(global_label "+8V"
-		(shape input)
-		(at 106.68 34.29 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "16c4a6a7-5efc-4db5-97ed-98c64bb0b8ba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 27.4343 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PHASE_C"
 		(shape input)
 		(at 255.27 73.66 0)
@@ -2336,28 +2722,6 @@
 			)
 		)
 	)
-	(global_label "+8V"
-		(shape input)
-		(at 41.91 31.75 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a8133709-22b9-47a4-8dd4-ca0df593d0f5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.91 24.8943 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "NLIN_A"
 		(shape input)
 		(at 40.64 71.12 180)
@@ -2376,28 +2740,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3V3"
-		(shape input)
-		(at 144.78 85.09 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "df7858e5-428f-410c-9de2-3a6c5030cf4a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.78 77.0248 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2434,7 +2776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f29475a-fc49-40c4-8d8d-9966db0e65ca")
-		(property "Reference" "R16"
+		(property "Reference" "R22"
 			(at 91.44 57.15 90)
 			(effects
 				(font
@@ -2485,10 +2827,6 @@
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "R16")
-					(unit 1)
-				)
 				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
 					(reference "R22")
 					(unit 1)
@@ -2506,7 +2844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18cc4985-caaa-4d18-babe-2d80df80130a")
-		(property "Reference" "C37"
+		(property "Reference" "C43"
 			(at 77.47 29.21 90)
 			(effects
 				(font
@@ -2557,10 +2895,6 @@
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "C37")
-					(unit 1)
-				)
 				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
 					(reference "C43")
 					(unit 1)
@@ -2569,17 +2903,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 144.78 113.03 0)
+		(lib_id "power:GNDA")
+		(at 130.81 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19ea074c-a404-499d-9be3-626dcdcaf3e2")
-		(property "Reference" "#PWR060"
-			(at 144.78 119.38 0)
+		(uuid "3b1690ad-cdc8-422a-a337-5a4305f56a1e")
+		(property "Reference" "#PWR042"
+			(at 130.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,8 +2920,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 144.78 118.11 0)
+		(property "Value" "GNDA"
+			(at 127.508 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +2929,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 113.03 0)
+			(at 130.81 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +2938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 113.03 0)
+			(at 130.81 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,8 +2946,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 113.03 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 130.81 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,16 +2956,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f343fb2-d362-46e0-b990-a596680d8e50")
+			(uuid "387b22a1-bfa2-422a-833e-161359394666")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "#PWR060")
-					(unit 1)
-				)
 				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
-					(reference "#PWR066")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -2648,7 +2977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4066fad0-3dcf-4556-bb41-ea9938a856f6")
-		(property "Reference" "C39"
+		(property "Reference" "C45"
 			(at 135.89 78.74 90)
 			(effects
 				(font
@@ -2699,10 +3028,6 @@
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "C39")
-					(unit 1)
-				)
 				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
 					(reference "C45")
 					(unit 1)
@@ -2720,7 +3045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40b5852d-00e4-49fc-815d-da370fa91b9b")
-		(property "Reference" "Q4"
+		(property "Reference" "Q6"
 			(at 110.49 80.0099 0)
 			(effects
 				(font
@@ -2807,10 +3132,6 @@
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "Q4")
-					(unit 1)
-				)
 				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
 					(reference "Q6")
 					(unit 1)
@@ -2828,7 +3149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43b97e7d-d308-4298-aeb7-6c1ecdd8c24b")
-		(property "Reference" "Q3"
+		(property "Reference" "Q5"
 			(at 110.49 59.6899 0)
 			(effects
 				(font
@@ -2915,12 +3236,140 @@
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "Q3")
-					(unit 1)
-				)
 				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 41.91 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e6f8ef1-62fb-4b09-bd39-5956d7875747")
+		(property "Reference" "#PWR039"
+			(at 41.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 41.91 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 41.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "900ef200-5e89-4158-8dfd-d5f1636267b9")
+		)
+		(instances
+			(project "active-drag-system-pcb"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 41.91 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56173d2d-cec9-41d7-b022-e07e0af54bc3")
+		(property "Reference" "#PWR034"
+			(at 41.91 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 41.91 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 41.91 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e16da63b-8dc0-46d1-b8bb-14e5cd08bf5d")
+		)
+		(instances
+			(project ""
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2936,7 +3385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c857009-3c6b-4d98-bcf5-be04b81726e3")
-		(property "Reference" "C40"
+		(property "Reference" "C46"
 			(at 181.61 104.1399 0)
 			(effects
 				(font
@@ -2989,152 +3438,8 @@
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "C40")
-					(unit 1)
-				)
 				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
 					(reference "C46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 116.84 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a511cff-4de2-4d6b-b46f-6c19bdc66b80")
-		(property "Reference" "#PWR058"
-			(at 116.84 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "025f6fc5-3abe-4dc9-8a48-09fc94ec44c7")
-		)
-		(instances
-			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "#PWR058")
-					(unit 1)
-				)
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 41.91 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f6b3b41-dc2b-41fc-98eb-74132d9a5813")
-		(property "Reference" "#PWR055"
-			(at 41.91 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.91 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ed8ffd9-da59-4794-9e8c-f9ce4a34bd0a")
-		)
-		(instances
-			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "#PWR055")
-					(unit 1)
-				)
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3150,7 +3455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d5c2215-8d7f-4abb-bc0b-59c8473e6cfb")
-		(property "Reference" "R18"
+		(property "Reference" "R24"
 			(at 109.22 97.7899 0)
 			(effects
 				(font
@@ -3203,12 +3508,140 @@
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "R18")
-					(unit 1)
-				)
 				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 144.78 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "917ce37b-78bd-4704-9151-43d2390bbaf5")
+		(property "Reference" "#PWR036"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53f0fe8a-9886-471a-a610-e6c4f46c13e0")
+		)
+		(instances
+			(project ""
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 144.78 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "982c43b6-9034-45e6-a742-b73e60fb25ce")
+		(property "Reference" "#PWR037"
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 144.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 144.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "404ef312-a894-471d-80de-9299997fc2b9")
+		)
+		(instances
+			(project ""
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3224,7 +3657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6076561-3846-49d1-aaf0-91b551eaec4f")
-		(property "Reference" "R19"
+		(property "Reference" "R25"
 			(at 170.18 91.44 90)
 			(effects
 				(font
@@ -3275,10 +3708,6 @@
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "R19")
-					(unit 1)
-				)
 				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
 					(reference "R25")
 					(unit 1)
@@ -3296,7 +3725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac7c4e0c-399e-473d-9dc7-5f2775492b00")
-		(property "Reference" "D3"
+		(property "Reference" "D5"
 			(at 66.3575 30.48 0)
 			(effects
 				(font
@@ -3347,10 +3776,6 @@
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "D3")
-					(unit 1)
-				)
 				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
 					(reference "D5")
 					(unit 1)
@@ -3368,7 +3793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae7fab27-00b3-4075-b69c-85189dd26af0")
-		(property "Reference" "C36"
+		(property "Reference" "C42"
 			(at 45.72 43.1799 0)
 			(effects
 				(font
@@ -3421,10 +3846,6 @@
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "C36")
-					(unit 1)
-				)
 				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
 					(reference "C42")
 					(unit 1)
@@ -3442,7 +3863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2ac5e7d-007a-452a-a6a9-88c7e97c6380")
-		(property "Reference" "C38"
+		(property "Reference" "C44"
 			(at 120.65 40.6399 0)
 			(effects
 				(font
@@ -3495,10 +3916,6 @@
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "C38")
-					(unit 1)
-				)
 				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
 					(reference "C44")
 					(unit 1)
@@ -3516,7 +3933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbdd22da-b1cf-40ba-b03d-941705a257a8")
-		(property "Reference" "C41"
+		(property "Reference" "C47"
 			(at 224.79 104.1399 0)
 			(effects
 				(font
@@ -3569,10 +3986,6 @@
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "C41")
-					(unit 1)
-				)
 				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
 					(reference "C47")
 					(unit 1)
@@ -3590,7 +4003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcb647aa-6111-4fce-8e2f-50cfa85727bf")
-		(property "Reference" "R17"
+		(property "Reference" "R23"
 			(at 91.44 77.47 90)
 			(effects
 				(font
@@ -3641,82 +4054,8 @@
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "R17")
-					(unit 1)
-				)
 				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
 					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1672c55-3a30-4188-8e2f-08676a219dd4")
-		(property "Reference" "#PWR059"
-			(at 130.81 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f757d5f-af97-4475-b716-c6cbe1579523")
-		)
-		(instances
-			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "#PWR059")
-					(unit 1)
-				)
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
-					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -3732,7 +4071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c58dc49f-03b9-4285-8c27-76286dc42fd1")
-		(property "Reference" "U13"
+		(property "Reference" "U15"
 			(at 64.4241 53.34 0)
 			(effects
 				(font
@@ -3804,10 +4143,6 @@
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "U13")
-					(unit 1)
-				)
 				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
 					(reference "U15")
 					(unit 1)
@@ -3825,7 +4160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7f81058-d75c-4ef4-aa7a-f648c575a4fb")
-		(property "Reference" "D4"
+		(property "Reference" "D6"
 			(at 252.73 86.3599 90)
 			(effects
 				(font
@@ -3878,10 +4213,6 @@
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "D4")
-					(unit 1)
-				)
 				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
 					(reference "D6")
 					(unit 1)
@@ -3899,7 +4230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c902fad3-c866-4016-ad54-1c4bd9332293")
-		(property "Reference" "U14"
+		(property "Reference" "U16"
 			(at 158.75 91.4714 0)
 			(effects
 				(font
@@ -3959,10 +4290,6 @@
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "U14")
-					(unit 1)
-				)
 				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
 					(reference "U16")
 					(unit 1)
@@ -3980,7 +4307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce56369c-508b-41bf-881e-17a32ac14c88")
-		(property "Reference" "R21"
+		(property "Reference" "R27"
 			(at 210.82 104.1399 0)
 			(effects
 				(font
@@ -4033,10 +4360,6 @@
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "R21")
-					(unit 1)
-				)
 				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
 					(reference "R27")
 					(unit 1)
@@ -4054,7 +4377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cecd2038-5145-484c-9daa-47cf2eeb2d53")
-		(property "Reference" "R20"
+		(property "Reference" "R26"
 			(at 210.82 82.5499 0)
 			(effects
 				(font
@@ -4107,10 +4430,6 @@
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "R20")
-					(unit 1)
-				)
 				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
 					(reference "R26")
 					(unit 1)
@@ -4119,7 +4438,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDPWR")
 		(at 106.68 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4127,9 +4446,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d6ce02b6-d7fb-4ee2-adb4-a023fe50876b")
-		(property "Reference" "#PWR057"
-			(at 106.68 115.57 0)
+		(uuid "e015d3f3-c975-4a04-9098-1d15c2c5c852")
+		(property "Reference" "#PWR041"
+			(at 106.68 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,8 +4456,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 106.68 114.3 0)
+		(property "Value" "GNDPWR"
+			(at 106.553 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4146,7 +4465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 109.22 0)
+			(at 106.68 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4155,7 +4474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 109.22 0)
+			(at 106.68 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4163,7 +4482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 			(at 106.68 109.22 0)
 			(effects
 				(font
@@ -4173,23 +4492,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6176dc6-9360-4bec-a8ea-372976d23984")
+			(uuid "c416cd6e-0f40-4e5b-b533-d24e60dd8a62")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "#PWR057")
-					(unit 1)
-				)
 				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
-					(reference "#PWR063")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDA")
 		(at 62.23 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4197,8 +4512,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f627bbab-fd12-400b-97d5-4c0e8254b133")
-		(property "Reference" "#PWR056"
+		(uuid "e5225139-4a73-4894-89c6-75e5522f4939")
+		(property "Reference" "#PWR038"
 			(at 62.23 91.44 0)
 			(effects
 				(font
@@ -4207,7 +4522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDA"
 			(at 62.23 90.17 0)
 			(effects
 				(font
@@ -4233,7 +4548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 62.23 85.09 0)
 			(effects
 				(font
@@ -4243,16 +4558,144 @@
 			)
 		)
 		(pin "1"
-			(uuid "fec50feb-614b-4cf5-b865-e97b9f044621")
+			(uuid "58dfb341-b8ad-43ef-b336-3fc1cb4c1504")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "#PWR056")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "#PWR038")
 					(unit 1)
 				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 106.68 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ead9b96c-1c61-4227-bb8f-779f1a4b3825")
+		(property "Reference" "#PWR035"
+			(at 106.68 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 106.68 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6700786e-2216-4b85-b932-922db9a2898d")
+		)
+		(instances
+			(project "active-drag-system-pcb"
 				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
-					(reference "#PWR062")
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 116.84 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb0e459c-93d7-4f9c-aa2a-69df78b79715")
+		(property "Reference" "#PWR040"
+			(at 116.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 116.713 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 116.84 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d091385-bbd9-494e-9707-fe4f4d5199dc")
+		)
+		(instances
+			(project "active-drag-system-pcb"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d7553554-0e14-4ea6-a547-ff75906ed6d2"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
