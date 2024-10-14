@@ -322,151 +322,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_TVS"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_TVS"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_TVS_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_TVS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -717,6 +572,163 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:ESD131-B1-W0201"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESD131-B1-W0201"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional ESD protection diode, +/-5.5Vrwm, 0.23pF, SG-WLL-2-3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS ESD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SG?WLL?2?3*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESD131-B1-W0201_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESD131-B1-W0201_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2138,7 +2150,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 76.2) (xy 87.63 76.2)
+			(xy 69.85 76.2) (xy 74.93 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2178,7 +2190,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 76.2) (xy 87.63 83.82)
+			(xy 74.93 76.2) (xy 74.93 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2265,6 +2277,16 @@
 			(type default)
 		)
 		(uuid "72a886cc-7707-4575-b6f1-b70e6869c80c")
+	)
+	(wire
+		(pts
+			(xy 74.93 83.82) (xy 87.63 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b1f7f9-860d-473a-8748-77b60d597fa2")
 	)
 	(wire
 		(pts
@@ -2646,7 +2668,7 @@
 		)
 		(uuid "bc6fc7d6-6fc3-4f37-8702-7c5e7a0d6682")
 	)
-	(text "@VPH=8.4V, VSENSE=2.625V"
+	(text "@VPH=12.6V, VSENSE=2.57V"
 		(exclude_from_sim no)
 		(at 218.948 117.348 0)
 		(effects
@@ -2722,7 +2744,7 @@
 			)
 		)
 	)
-	(global_label "NLIN_A"
+	(global_label "NLIN_B"
 		(shape input)
 		(at 40.64 71.12 180)
 		(fields_autoplaced yes)
@@ -2734,7 +2756,7 @@
 		)
 		(uuid "b0e75a86-2330-481e-9841-9c269b2a7803")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.3047 71.12 0)
+			(at 31.1233 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +2766,7 @@
 			)
 		)
 	)
-	(global_label "HIN_A"
+	(global_label "HIN_B"
 		(shape input)
 		(at 40.64 68.58 180)
 		(fields_autoplaced yes)
@@ -2756,7 +2778,7 @@
 		)
 		(uuid "e34236ac-8d22-45c8-862b-71f5954f5670")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.3328 68.58 0)
+			(at 32.1514 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,13 +2790,95 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 91.44 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0974c33a-2adb-4ff7-9660-ba9c0554bce0")
+		(property "Reference" "R17"
+			(at 91.44 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 91.44 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 91.44 82.042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "1W"
+			(at 88.9 81.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 94.234 81.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9731a9ab-d462-4c30-83f1-f19d52cd3245")
+		)
+		(pin "2"
+			(uuid "6af08ad3-1b87-41d6-9191-667e45d077b9")
+		)
+		(instances
+			(project "active-drag-system-pcb"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 91.44 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0f29475a-fc49-40c4-8d8d-9966db0e65ca")
 		(property "Reference" "R16"
 			(at 91.44 57.15 90)
@@ -2792,7 +2896,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 91.44 61.722 90)
 			(effects
 				(font
@@ -2819,81 +2923,32 @@
 				(hide yes)
 			)
 		)
+		(property "Power" "1W"
+			(at 88.9 61.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 94.234 61.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "ba49b5bc-09d4-46b0-a73e-3124572dedb7")
+			(uuid "61ced251-de7c-42b7-aaaf-2f61e56ee90b")
 		)
 		(pin "2"
-			(uuid "9ce12fc5-b942-4af1-ad24-2b1a88b5f6ac")
+			(uuid "22cf13f7-f2cd-431e-b3d3-80c73b5b9ca1")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 130.81 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "11196544-0958-4393-a979-b6f7f7560d5a")
-		(property "Reference" "#PWR031"
-			(at 130.81 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 127.254 88.646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 130.81 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9dbdcc0-59d2-4269-9f69-f3846b59948b")
-		)
-		(instances
-			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2907,9 +2962,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "18cc4985-caaa-4d18-babe-2d80df80130a")
-		(property "Reference" "C37"
+		(property "Reference" "C35"
 			(at 77.47 29.21 90)
 			(effects
 				(font
@@ -2917,15 +2971,15 @@
 				)
 			)
 		)
-		(property "Value" "1u"
-			(at 77.47 31.75 90)
+		(property "Value" "1uF"
+			(at 77.47 30.734 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 73.66 37.7952 0)
 			(effects
 				(font
@@ -2952,41 +3006,66 @@
 				(hide yes)
 			)
 		)
+		(property "Max Voltage" "16V"
+			(at 77.47 31.75 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 77.47 32.766 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 77.47 33.782 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "c7da187e-09da-431e-9acf-e8650a70deb3")
+			(uuid "cc3989b0-9f75-4199-af22-f28538439afa")
 		)
 		(pin "1"
-			(uuid "b1d630b2-9dbd-4349-aedc-e8070a0fde89")
+			(uuid "16c6c899-e523-4e0c-886a-0803a40562b0")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "C37")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
+					(reference "C35")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 135.89 86.36 270)
+		(lib_id "power:+BATT")
+		(at 41.91 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4066fad0-3dcf-4556-bb41-ea9938a856f6")
-		(property "Reference" "C39"
-			(at 135.89 78.74 90)
+		(uuid "19d9dd47-a929-4420-a4ab-6aa82c6d8e32")
+		(property "Reference" "#PWR016"
+			(at 41.91 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "100n"
-			(at 135.89 81.28 90)
+		(property "Value" "+BATT"
+			(at 41.91 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,7 +3073,269 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 87.3252 0)
+			(at 41.91 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 41.91 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a65e4a03-78a5-4c76-9b89-f5c45e15ec0b")
+		)
+		(instances
+			(project "active-drag-system-pcb"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 106.68 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ecce384-9251-4da0-996e-03dc5f34f936")
+		(property "Reference" "#PWR023"
+			(at 106.68 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 106.68 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2be8ba5-23b3-4652-95a7-cea6b2d3bb78")
+		)
+		(instances
+			(project "active-drag-system-pcb"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 106.68 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30d7dc5a-2007-4457-9452-d02981bc3476")
+		(property "Reference" "#PWR025"
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 106.553 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 106.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0f2a79f-18b4-441a-bfb6-40e7f55c9ca0")
+		)
+		(instances
+			(project "active-drag-system-pcb"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 116.84 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "391b286c-5a2f-4ace-b926-82cf600782e8")
+		(property "Reference" "#PWR026"
+			(at 116.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 116.713 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 116.84 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "124e90e5-9f70-46d3-8e7d-85ef74e31bb6")
+		)
+		(instances
+			(project "active-drag-system-pcb"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 41.91 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4024e4be-970b-4292-806f-fc90e0ac17c6")
+		(property "Reference" "C33"
+			(at 37.846 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 37.846 43.688 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 42.8752 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3003,7 +3344,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 86.36 0)
+			(at 41.91 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3012,7 +3353,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 135.89 86.36 0)
+			(at 41.91 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3020,16 +3361,40 @@
 				(hide yes)
 			)
 		)
+		(property "Max Voltage" "16V"
+			(at 37.846 44.704 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 37.846 45.72 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 37.846 46.736 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "2a62fbe4-6905-4599-a2b0-f04d189adfa0")
+			(uuid "452cf8c8-f766-4e7d-9944-95056672ce9e")
 		)
 		(pin "1"
-			(uuid "9bc99f57-6fa9-4203-9bcf-39e427a70713")
+			(uuid "d3bf146b-8b26-4bf7-8647-7fef333c483e")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "C39")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -3122,17 +3487,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "916cbf30-1899-48a1-967d-0d0a96199897")
+			(uuid "01121ba3-36fe-4bb5-a026-b2ccb2ae1043")
 		)
 		(pin "5"
-			(uuid "12a0bfff-0842-4f52-a3d9-b795882c8af6")
+			(uuid "20f00cc0-de62-4e95-b1ef-2e2e979e2740")
 		)
 		(pin "4"
-			(uuid "185be7b7-2079-4f5b-bd0d-081397ecb8c1")
+			(uuid "c89a4f2d-dda5-436b-800c-26de912d1e15")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
 					(reference "Q4")
 					(unit 1)
 				)
@@ -3226,18 +3591,84 @@
 			)
 		)
 		(pin "1"
-			(uuid "2312624a-a03a-4ea3-b17c-39ab27fc00e7")
+			(uuid "fd8bf44d-ef26-4a40-9481-deb1b996a584")
 		)
 		(pin "5"
-			(uuid "2fcf5807-8597-4930-aa91-e6bb0cf3440f")
+			(uuid "c7c89628-f942-4002-b93b-c4d3d715d473")
 		)
 		(pin "4"
-			(uuid "1c992655-6529-4db2-a6ff-c79af4334977")
+			(uuid "3359560f-1e55-406d-9146-673fcc96f62a")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 62.23 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "489d5ea4-915d-45d3-a741-720409194d14")
+		(property "Reference" "#PWR021"
+			(at 62.23 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 62.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d231b955-40ba-4722-aba4-7dc1c159b488")
+		)
+		(instances
+			(project "active-drag-system-pcb"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3251,10 +3682,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5c857009-3c6b-4d98-bcf5-be04b81726e3")
-		(property "Reference" "C40"
-			(at 181.61 104.1399 0)
+		(property "Reference" "C38"
+			(at 181.102 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3262,8 +3692,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
-			(at 181.61 106.6799 0)
+		(property "Value" "1000pF"
+			(at 181.102 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3271,7 +3701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 178.7652 109.22 0)
 			(effects
 				(font
@@ -3298,82 +3728,40 @@
 				(hide yes)
 			)
 		)
+		(property "Max Voltage" "6.3V"
+			(at 183.388 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 183.388 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 183.388 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "0502a390-c62e-4abd-a041-577433b18911")
+			(uuid "3ea48d58-902a-4a07-ba16-b0786197b6a8")
 		)
 		(pin "1"
-			(uuid "25a56fe1-1d4a-4a79-9f3f-b5fde4b0f9da")
+			(uuid "63deea8c-99e9-4b96-984a-e31d9ba6f665")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 41.91 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "674dd0a6-20b1-4e78-937c-0f64640c15f8")
-		(property "Reference" "#PWR030"
-			(at 41.91 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 41.91 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 41.91 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2982dcc1-0d84-4fb0-8d53-90b135de2b7f")
-		)
-		(instances
-			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "#PWR030")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -3387,10 +3775,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d5c2215-8d7f-4abb-bc0b-59c8473e6cfb")
 		(property "Reference" "R18"
-			(at 109.22 97.7899 0)
+			(at 108.712 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3399,7 +3786,7 @@
 			)
 		)
 		(property "Value" "2m"
-			(at 109.22 100.3299 0)
+			(at 108.712 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3407,7 +3794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 104.902 99.06 90)
 			(effects
 				(font
@@ -3434,15 +3821,31 @@
 				(hide yes)
 			)
 		)
+		(property "Power" "1W"
+			(at 110.236 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 110.236 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "f559e377-a8cd-4df0-a47f-8f7a040927f9")
+			(uuid "614eaaa8-db37-4610-9abc-a41abdf8335d")
 		)
 		(pin "1"
-			(uuid "41b284f6-db95-4372-b657-c8f8da5adc91")
+			(uuid "2842856c-b2a6-4f7b-9354-f632ee1b32e2")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
 					(reference "R18")
 					(unit 1)
 				)
@@ -3450,17 +3853,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 144.78 85.09 0)
+		(lib_id "power:GNDA")
+		(at 41.91 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7ffe1a5f-972e-432f-b1c9-ccdc62cde0b5")
-		(property "Reference" "#PWR028"
-			(at 144.78 88.9 0)
+		(uuid "808a1746-05b6-4b5f-852d-41cbecaf3db5")
+		(property "Reference" "#PWR018"
+			(at 41.91 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3468,8 +3871,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 144.78 80.01 0)
+		(property "Value" "GNDA"
+			(at 41.91 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3477,7 +3880,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 85.09 0)
+			(at 41.91 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +3889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 85.09 0)
+			(at 41.91 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3494,8 +3897,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 144.78 85.09 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 41.91 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3504,12 +3907,105 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e55de5b-6ecd-49fe-a411-18d6bfd8cd44")
+			(uuid "b0be2d09-7e66-4ea1-b53e-e04a477fb241")
 		)
 		(instances
-			(project ""
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "#PWR028")
+			(project "active-drag-system-pcb"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a8ddb3b-6af6-4b8a-9d5f-ee1670e90827")
+		(property "Reference" "C37"
+			(at 137.668 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 137.668 80.264 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 139.7 85.3948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Voltage" "6.3V"
+			(at 135.89 81.28 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 135.89 82.296 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 135.89 83.312 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9aeec05-7208-4134-86ff-7bd65c85d5ba")
+		)
+		(pin "2"
+			(uuid "c6971428-6462-4b9d-9f05-2dad9b7fbcf1")
+		)
+		(instances
+			(project "active-drag-system-pcb"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -3523,7 +4019,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a6076561-3846-49d1-aaf0-91b551eaec4f")
 		(property "Reference" "R19"
 			(at 170.18 91.44 90)
@@ -3541,7 +4036,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 170.18 96.012 90)
 			(effects
 				(font
@@ -3568,15 +4063,31 @@
 				(hide yes)
 			)
 		)
+		(property "Power" "0.1W"
+			(at 167.386 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 172.72 95.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "895200be-f698-42c9-bf85-a878b243908f")
+			(uuid "f4849f2e-73a7-4504-9064-6553c4f332b2")
 		)
 		(pin "2"
-			(uuid "ff87f68c-3374-4ba8-8a81-e164b34e170f")
+			(uuid "d50290d5-aae1-41a2-85d4-feac6c65e35a")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
 					(reference "R19")
 					(unit 1)
 				)
@@ -3593,7 +4104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac7c4e0c-399e-473d-9dc7-5f2775492b00")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 66.3575 30.48 0)
 			(effects
 				(font
@@ -3637,85 +4148,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d2d6ed7-6af6-4afc-a96f-662063a06713")
+			(uuid "232d93d9-dc28-496d-b1b0-94d2d9fb88ac")
 		)
 		(pin "2"
-			(uuid "67bf6174-bec5-4d87-a2ef-87c15f157d2f")
+			(uuid "26fc21d2-4ed3-4345-95dc-af769bb72109")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 41.91 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae7fab27-00b3-4075-b69c-85189dd26af0")
-		(property "Reference" "C36"
-			(at 45.72 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 45.72 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 42.8752 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 41.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "72024045-49fa-4266-b4dd-6732a99e52fd")
-		)
-		(pin "1"
-			(uuid "2e3dacfa-5006-4450-97f6-5f7bccef4bd4")
-		)
-		(instances
-			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "C36")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3729,10 +4170,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b2ac5e7d-007a-452a-a6a9-88c7e97c6380")
-		(property "Reference" "C38"
-			(at 120.65 40.6399 0)
+		(property "Reference" "C36"
+			(at 120.396 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,7 +4181,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 120.65 43.1799 0)
+			(at 120.65 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3749,7 +4189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 117.8052 45.72 0)
 			(effects
 				(font
@@ -3776,51 +4216,56 @@
 				(hide yes)
 			)
 		)
+		(property "Max Voltage" "16V"
+			(at 122.682 40.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 122.936 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 122.936 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "e5f68f84-7d1a-470c-9099-2aaeae2610aa")
+			(uuid "ad83e02b-fc1e-4be8-a50a-1c83697f673e")
 		)
 		(pin "1"
-			(uuid "d018bb59-def3-4adc-9442-35b983586bfd")
+			(uuid "c2ad5b55-646a-4311-934f-238c50221926")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "C38")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
+					(reference "C36")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 220.98 105.41 0)
+		(lib_id "power:GNDA")
+		(at 130.81 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbdd22da-b1cf-40ba-b03d-941705a257a8")
-		(property "Reference" "C41"
-			(at 224.79 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1n"
-			(at 224.79 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 221.9452 109.22 0)
+		(uuid "b3fd1741-08af-40c5-967c-8b2b18558ddc")
+		(property "Reference" "#PWR027"
+			(at 130.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3828,59 +4273,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 220.98 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 220.98 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c3ea15bd-5152-4222-a138-115c52eb8f26")
-		)
-		(pin "1"
-			(uuid "788ee9a9-00d1-432b-9b8b-1ad72e72cb65")
-		)
-		(instances
-			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 91.44 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bcb647aa-6111-4fce-8e2f-50cfa85727bf")
-		(property "Reference" "R17"
-			(at 91.44 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 91.44 80.01 90)
+		(property "Value" "GNDA"
+			(at 127.254 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +4282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 82.042 90)
+			(at 130.81 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3896,8 +4290,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 91.44 83.82 0)
+		(property "Datasheet" ""
+			(at 130.81 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,8 +4299,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 91.44 83.82 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 130.81 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,15 +4309,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "49a33831-2dcc-4b56-94d8-18f300267c9d")
-		)
-		(pin "2"
-			(uuid "543f850f-17ea-45f5-bf45-91f45b3c80ee")
+			(uuid "565ecbef-c619-4a6b-a38f-0a5b605dedc7")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "R17")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 144.78 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c585b04d-71cc-45f4-b08f-f8620f61236c")
+		(property "Reference" "#PWR030"
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 144.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 144.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2ff6d73-8327-4c3b-b669-a1cb33ced00e")
+		)
+		(instances
+			(project "active-drag-system-pcb"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -3939,7 +4396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c58dc49f-03b9-4285-8c27-76286dc42fd1")
-		(property "Reference" "U13"
+		(property "Reference" "U7"
 			(at 64.4241 53.34 0)
 			(effects
 				(font
@@ -3986,103 +4443,33 @@
 			)
 		)
 		(pin "2"
-			(uuid "16b1ac4b-6ed5-41a9-a6a6-ca5fb9e8bb30")
+			(uuid "2fdbfd5f-43cb-425a-942c-7b2f403aaf96")
 		)
 		(pin "3"
-			(uuid "ff7e65aa-1a1a-4c65-908a-e4c711cb4e99")
+			(uuid "5b947f3a-9a57-43f6-947c-ddde18f97d31")
 		)
 		(pin "7"
-			(uuid "2e13c2e1-af46-4558-860e-c2d2db05a481")
+			(uuid "77688b35-ffaa-40b0-b561-6250443c5095")
 		)
 		(pin "8"
-			(uuid "01205df4-3991-44f3-be33-e090da1c2687")
+			(uuid "5d1a8301-4f74-4f28-8c8f-e0fe724ce8b8")
 		)
 		(pin "1"
-			(uuid "b525f5d7-37f4-478b-8bf5-496b216026bf")
+			(uuid "3c4d06b0-9834-40f1-992a-c6093b2f6de7")
 		)
 		(pin "6"
-			(uuid "83ff003c-1651-4c27-9694-692748123255")
+			(uuid "0201f37b-5f26-40d1-8342-131631bef798")
 		)
 		(pin "5"
-			(uuid "3bb86699-d097-4110-a776-83104931a67a")
+			(uuid "f4334d61-53ad-47e4-8482-f82171414177")
 		)
 		(pin "4"
-			(uuid "a78b84b5-11ca-4f63-bae9-a320526ba9c4")
+			(uuid "6b132c82-cc8e-421f-8efc-fc2f7c1c9f90")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "U13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 250.19 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7f81058-d75c-4ef4-aa7a-f648c575a4fb")
-		(property "Reference" "D4"
-			(at 252.73 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 252.73 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 250.19 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0660f89-b50f-486f-a4fc-7e6bd6019692")
-		)
-		(pin "2"
-			(uuid "14ea27f7-acc1-43ee-8d4f-e133268cd9fa")
-		)
-		(instances
-			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "D4")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -4098,7 +4485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c902fad3-c866-4016-ad54-1c4bd9332293")
-		(property "Reference" "U14"
+		(property "Reference" "U8"
 			(at 158.75 91.4714 0)
 			(effects
 				(font
@@ -4142,24 +4529,24 @@
 			)
 		)
 		(pin "2"
-			(uuid "039c7811-da2d-42bc-bff1-5ddaa8ec43ac")
+			(uuid "cdf5744a-0d96-49c8-8604-f5bc436e146b")
 		)
 		(pin "3"
-			(uuid "6775618f-bd82-45c3-997a-4eebb3ea76ef")
+			(uuid "34402743-31c2-485a-b82f-c929cf3cdd61")
 		)
 		(pin "5"
-			(uuid "026c6e4e-4cea-4e40-9f88-aff36beec179")
+			(uuid "762b7ce6-ee8a-4a78-a224-f991fe8e4add")
 		)
 		(pin "4"
-			(uuid "d4179a5e-2735-403e-bc66-555b58f01144")
+			(uuid "6b058596-d6c1-49cf-8212-50b6dfabcff3")
 		)
 		(pin "1"
-			(uuid "93b996dd-914f-4d11-86c6-847ccbd34708")
+			(uuid "e8e95e31-b92f-448e-91a6-4c927155ae8d")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "U14")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -4173,10 +4560,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ce56369c-508b-41bf-881e-17a32ac14c88")
 		(property "Reference" "R21"
-			(at 210.82 104.1399 0)
+			(at 210.566 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4185,7 +4571,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 210.82 106.6799 0)
+			(at 210.82 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,7 +4579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 206.502 105.41 90)
 			(effects
 				(font
@@ -4220,15 +4606,31 @@
 				(hide yes)
 			)
 		)
+		(property "Power" "0.1W"
+			(at 213.106 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 212.344 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "e735c134-bb8a-4dd2-b15a-5a08ea8698f3")
+			(uuid "ac541f4c-5fc6-4bba-b2e5-3dd179b24477")
 		)
 		(pin "1"
-			(uuid "3bf76571-8985-4175-8c17-91b763e71cb8")
+			(uuid "4bc4af14-2516-4804-9e4f-3489293d85db")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
 					(reference "R21")
 					(unit 1)
 				)
@@ -4243,10 +4645,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cecd2038-5145-484c-9daa-47cf2eeb2d53")
 		(property "Reference" "R20"
-			(at 210.82 82.5499 0)
+			(at 210.566 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,8 +4655,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k"
-			(at 210.82 85.0899 0)
+		(property "Value" "39k"
+			(at 210.82 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +4664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 206.502 83.82 90)
 			(effects
 				(font
@@ -4290,15 +4691,31 @@
 				(hide yes)
 			)
 		)
+		(property "Power" "0.1W"
+			(at 213.106 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 212.344 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "dacf7a74-3a6d-458d-b4e2-4e2f618b72ec")
+			(uuid "583158b2-55cd-4d9c-8b00-d3159ab593f1")
 		)
 		(pin "1"
-			(uuid "2738f719-5269-458d-8f15-9e64397528d2")
+			(uuid "67feabdd-c6fb-4920-a17b-21f5a0367aab")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
 					(reference "R20")
 					(unit 1)
 				)
@@ -4306,17 +4723,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 41.91 48.26 0)
+		(lib_id "Device:C")
+		(at 220.98 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc0ee418-5987-4853-9e54-40637fb488ba")
-		(property "Reference" "#PWR026"
-			(at 41.91 54.61 0)
+		(uuid "ddebebf7-dddf-48b8-8ad5-20c03ac7ab74")
+		(property "Reference" "C39"
+			(at 224.282 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000pF"
+			(at 224.282 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 221.9452 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,16 +4758,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 41.91 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 48.26 0)
+		(property "Datasheet" "~"
+			(at 220.98 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,8 +4767,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 41.91 48.26 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 220.98 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,105 +4776,57 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 41.91 48.26 0)
+		(property "Max Voltage" "6.3V"
+			(at 226.568 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
+		)
+		(property "Dielectric" "X7R"
+			(at 226.568 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 226.568 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "58bd50e7-bc56-4053-944d-94f0910d00d1")
 		)
 		(pin "1"
-			(uuid "753b2a9e-5439-4e2f-a195-e92e54a629f1")
+			(uuid "89c0a453-cace-4202-99d6-94cb6a8d4498")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "#PWR026")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
+					(reference "C39")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 106.68 109.22 0)
+		(lib_id "power:+3V3")
+		(at 144.78 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "de202f79-be00-475c-a16c-d3ea809d674f")
-		(property "Reference" "#PWR024"
-			(at 106.68 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 106.553 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 106.68 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3823d6a2-3495-4055-b169-b04cddbdac2a")
-		)
-		(instances
-			(project ""
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 106.68 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecb29eb0-5523-46f0-8e38-18dd24a4b2ba")
+		(uuid "e6a8d523-85f3-4d77-a459-6beeb25ec840")
 		(property "Reference" "#PWR029"
-			(at 106.68 38.1 0)
+			(at 144.78 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,8 +4834,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 106.68 29.21 0)
+		(property "Value" "+3V3"
+			(at 144.78 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4465,7 +4843,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 34.29 0)
+			(at 144.78 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4474,7 +4852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 34.29 0)
+			(at 144.78 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4482,8 +4860,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 106.68 34.29 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 144.78 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4492,11 +4870,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea0be8d7-e88a-448c-bbd2-352a078e7d7a")
+			(uuid "e8dca02b-b4b5-46e1-b653-a8b95302c462")
 		)
 		(instances
-			(project ""
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
+			(project "active-drag-system-pcb"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
 					(reference "#PWR029")
 					(unit 1)
 				)
@@ -4504,17 +4882,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 62.23 85.09 0)
+		(lib_id "Diode:ESD131-B1-W0201")
+		(at 250.19 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eddffd3f-e9d3-4814-8dbd-3a09ec504ac6")
-		(property "Reference" "#PWR033"
-			(at 62.23 91.44 0)
+		(uuid "f054e270-6403-415c-ba50-be5f6f59a01e")
+		(property "Reference" "D3"
+			(at 252.73 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD131-B1-W0201"
+			(at 252.73 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
+			(at 250.19 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4522,16 +4918,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 62.23 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 85.09 0)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
+			(at 250.19 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4539,17 +4927,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 62.23 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 62.23 85.09 0)
+		(property "Description" "Bidirectional ESD protection diode, +/-5.5Vrwm, 0.23pF, SG-WLL-2-3"
+			(at 250.19 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,144 +4937,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d3a5624d-ebbd-438a-bd2d-018739fb637d")
+			(uuid "dec9efa6-e22c-4b7f-97d6-353e1b873ec9")
+		)
+		(pin "2"
+			(uuid "af0028e7-5ac2-4518-917c-4b885d7d05f0")
 		)
 		(instances
 			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 116.84 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4ae7a66-247b-4b8f-9d62-d15adfc1c7fc")
-		(property "Reference" "#PWR025"
-			(at 116.84 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 116.713 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 116.84 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "931f561e-60d7-44fb-9932-c5e8c2693f45")
-		)
-		(instances
-			(project "active-drag-system-pcb"
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 144.78 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f99b07ad-b487-4787-b479-f82468a01096")
-		(property "Reference" "#PWR027"
-			(at 144.78 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 144.78 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 144.78 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d57919d7-0a9e-4327-a36a-2289e65bbfd0")
-		)
-		(instances
-			(project ""
-				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/b1ccadfc-44f5-400d-854c-4f76664e7cea"
-					(reference "#PWR027")
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/d50f75fa-636b-46fe-a50f-c88af2347405"
+					(reference "D3")
 					(unit 1)
 				)
 			)
