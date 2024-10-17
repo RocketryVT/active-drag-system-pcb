@@ -3055,7 +3055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19d9dd47-a929-4420-a4ab-6aa82c6d8e32")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR?"
 			(at 41.91 35.56 0)
 			(effects
 				(font
@@ -3101,6 +3101,14 @@
 		)
 		(pin "1"
 			(uuid "a65e4a03-78a5-4c76-9b89-f5c45e15ec0b")
+		)
+		(instances
+			(project "active-drag-system-pcb"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3179,7 +3187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30d7dc5a-2007-4457-9452-d02981bc3476")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR?"
 			(at 106.68 114.3 0)
 			(effects
 				(font
@@ -3225,6 +3233,14 @@
 		)
 		(pin "1"
 			(uuid "b0f2a79f-18b4-441a-bfb6-40e7f55c9ca0")
+		)
+		(instances
+			(project "active-drag-system-pcb"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4314,7 +4330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c585b04d-71cc-45f4-b08f-f8620f61236c")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR?"
 			(at 144.78 119.38 0)
 			(effects
 				(font
@@ -4360,6 +4376,14 @@
 		)
 		(pin "1"
 			(uuid "e2ff6d73-8327-4c3b-b669-a1cb33ced00e")
+		)
+		(instances
+			(project "active-drag-system-pcb"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4801,7 +4825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6a8d523-85f3-4d77-a459-6beeb25ec840")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR?"
 			(at 144.78 88.9 0)
 			(effects
 				(font
@@ -4848,6 +4872,14 @@
 		(pin "1"
 			(uuid "e8dca02b-b4b5-46e1-b653-a8b95302c462")
 		)
+		(instances
+			(project "active-drag-system-pcb"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Diode:ESD131-B1-W0201")
@@ -4859,7 +4891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f054e270-6403-415c-ba50-be5f6f59a01e")
-		(property "Reference" "D3"
+		(property "Reference" "D?"
 			(at 252.73 86.3599 90)
 			(effects
 				(font
@@ -4909,6 +4941,14 @@
 		)
 		(pin "2"
 			(uuid "af0028e7-5ac2-4518-917c-4b885d7d05f0")
+		)
+		(instances
+			(project "active-drag-system-pcb"
+				(path "/bbbb29dc-aa75-4226-931e-5c4f0b0fc0d6/fbbbaf64-191c-47c3-84ef-de04ddaa7763"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 )
