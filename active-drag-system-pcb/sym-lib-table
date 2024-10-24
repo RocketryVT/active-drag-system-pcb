@@ -15,4 +15,5 @@
   (lib (name "MCU_RaspberryPi1")(type "KiCad")(uri "${KIPRJMOD}/Library/MCU_RaspberryPi/MCU_RaspberryPi.kicad_sym")(options "")(descr ""))
   (lib (name "ABM8-272-T3")(type "KiCad")(uri "${KIPRJMOD}/Library/ABM8-272-T3/ABM8-272-T3.kicad_sym")(options "")(descr ""))
   (lib (name "104CDMCCDS-1R5MC")(type "KiCad")(uri "${KIPRJMOD}/Library/104CDMCCDS_1R5MC/104CDMCCDS-1R5MC.kicad_sym")(options "")(descr ""))
+  (lib (name "ADC1283IPT")(type "KiCad")(uri "${KIPRJMOD}/Library/ADC1283IPT/ADC1283IPT.kicad_sym")(options "")(descr ""))
 )

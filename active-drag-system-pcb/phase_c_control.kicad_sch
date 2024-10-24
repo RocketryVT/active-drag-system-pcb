@@ -3428,7 +3428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SIR182DP-T1-RE3:TRANS_SIR182DP-T1-RE3"
+		(property "Footprint" "ADS_Library:TRANS_SIR182DP-T1-RE3"
 			(at 104.14 81.28 0)
 			(effects
 				(font
@@ -3532,7 +3532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SIR182DP-T1-RE3:TRANS_SIR182DP-T1-RE3"
+		(property "Footprint" "ADS_Library:TRANS_SIR182DP-T1-RE3"
 			(at 104.14 60.96 0)
 			(effects
 				(font
@@ -4405,7 +4405,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IR2103"
+		(property "Value" "IR2103STRPBF"
 			(at 64.4241 55.88 0)
 			(effects
 				(font
@@ -4414,7 +4414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ADS_Library:SO8N_INF-L"
 			(at 62.23 68.58 0)
 			(effects
 				(font

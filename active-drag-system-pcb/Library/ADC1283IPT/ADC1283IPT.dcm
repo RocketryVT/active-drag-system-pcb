@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADC1283IPT
+D 8-Channel, 50ksps to 200ksps, 12-Bit A/D Converter
+K
+F https://www.st.com/resource/en/datasheet/adc1283.pdf
+$ENDCMP
+#
+#End Doc Library
